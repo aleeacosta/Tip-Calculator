@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+
+body {
+    font-family:'Space Mono', monospace;
+    background-color: #c5e4e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+}
+
+.container {
+    display: inline-flex;           
+    flex-wrap: wrap;      
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 20px;
+    
+}
+
+@media screen and (max-width: 775px) {
+    .container {
+        display: flex;
+        flex-direction: column;         
+    }
+}
+
+.box1 {
+    width: 300px;
+    height: 280px;
+    padding: 20px;        
+}
+
+.box2 {
+    width: 300px;
+    height: 280px;
+    background-color: #00474b;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.box1 p {
+    margin: 0;
+    margin-bottom: 5px;
+    color: hsl(186, 14%, 43%);
+    font-size: 13px;
+}
+
+.botones {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.botones button {
+    width: 30%;
+    height: 40px;
+    background-color: #00474b;
+    color:white;
+    border: 0px;
+    font-family: 'Space Mono', monospace;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px 0 8px 0;
+}
+
+.botones button:hover {
+    background-color: #31bdab;
+    color: #00474b;
+}
+
+.botones button:focus {
+    background-color: #31bdab;
+    color: #00474b;
+}
+
+.botones #custom {
+    background-color: #e9e9e9;
+    color: hsl(186, 14%, 43%);
+}
+
+.container input {
+    width: 280px;
+    height: 30px;
+    font-size: 24px;
+    background-color: hsl(180, 21%, 92%);
+    border: 0px;
+    border-radius: 3px;
+    padding: 7px 10px 7px 10px;
+    margin-bottom: 20px;
+    text-align: end;
+    font-family: 'Space Mono', monospace;
+    color: hsl(186, 14%, 43%);
+}
+
+input:focus {
+    outline-color:#31bdab;
+}
+
+.tip-amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 18px;
+}
+
+.tip-amount span{
+    color: hsl(184, 14%, 56%);
+    font-size: 12px;
+}
+
+.tip-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 18px;
+}
+
+.tip-total span{
+    color: hsl(184, 14%, 56%);
+    font-size: 12px;
+}
+
+.box2 h1 {
+    color: #31bdab;
+    margin: 0;
+}
+
+.box2 p {
+    font-size: 15px;
+}
+
+.btnReset {
+    width: 100%;
+    background-color: hsl(186, 14%, 43%);
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+    padding: 7px 0;
+    margin-top: 105px;
+    color: hsl(184, 14%, 56%)
+}
+
